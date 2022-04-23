@@ -96,9 +96,16 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     .skill{
         padding: 4px 30px;
+        
+    }
+}
+
+@media (max-width: 320px) {
+    .skill{
+        padding: 4px 25px;
         
     }
 }

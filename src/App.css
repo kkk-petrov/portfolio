@@ -139,3 +139,20 @@
 
 
 }
+
+@media (max-width: 360px) {
+    .contacts{
+        flex-direction: column;
+    }
+    .contact:not(:last-child){
+        margin-right: 5px;
+        margin-bottom: 0px;
+    }
+    .contact__icon{
+        width: 30px;
+        height: 30px;
+    }
+    .header__title{
+        margin-bottom: 25px;
+    }
+}
