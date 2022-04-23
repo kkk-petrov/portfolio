@@ -26,12 +26,7 @@
     text-align: center;
     border-radius: 20%;
 
-    
-
-    ;
-
     animation: radial-pulse 2s infinite;
-    animation-delay: 10s;
 }
 
 .skill:not(:last-child)::after{
@@ -39,7 +34,7 @@
     display: flex;
     background-color: rgb(68, 83, 94);
     width: 80px;
-    height: 2px;
+    height: 1px;
     position: relative;
     bottom: 30px;
     left: 90px;
@@ -83,7 +78,7 @@
         max-width: 80px;
         margin-bottom: 30px;
         margin-right: 4px;
-
+        border-radius: 10px;
     }
 
     .skill:not(:last-child)::after{
