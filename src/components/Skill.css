@@ -55,3 +55,21 @@
     0%   {box-shadow: 0 0 0 0em rgba(68, 83, 94, 0.63);}
     100% {box-shadow: 0 0 0 1em rgba(255,100,100,.0);}
 }
+
+
+@media (max-width: 768px) {   
+    .header__skills{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content:space-between;
+
+    }
+    .skill{
+        padding: 4px 8px;
+        width: 30%;
+        max-width: 80px;
+        margin-bottom: 10px;
+        margin-right: 4px;
+
+    }
+}

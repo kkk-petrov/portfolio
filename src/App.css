@@ -7,6 +7,7 @@
 .container{
     max-width: 1000px;
     margin: 0 auto;
+    padding: 0px 10px;
 
 }
 
@@ -102,3 +103,36 @@
     /* border: #44535e solid 5px; */
 }
 
+
+@media (max-width: 768px) {
+    .header__contacts{
+        margin-right: 0px;
+        flex-direction: row;
+    }
+    .contact__icon{
+        width: 40px;
+        height: 40px;
+    }
+    .contact:not(:last-child){
+        margin-right: 10px;
+    }
+    .header__avatar{
+        display: none;
+    }
+    .header__info{
+        align-items: start;
+    }
+    .header__text{
+        margin: 0;
+        margin-top: 10px;
+    }
+    .header__title{
+        margin: 0px;
+    }
+    .header__subtitle{
+        margin-top: 0px;
+    }
+
+
+
+}
