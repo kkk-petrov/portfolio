@@ -21,7 +21,7 @@
 /* Info */
 
 .header{
-    padding: 20px 0px 30px 0;
+    padding: 20px 0px 30px 0px;
 }
 
 .header__info{
@@ -132,7 +132,9 @@
     .header__subtitle{
         margin-top: 0px;
     }
-
+    .header{
+        padding: 10px 0px 10px 0px;
+    }
 
 
 }

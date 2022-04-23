@@ -34,11 +34,24 @@
     animation-delay: 10s;
 }
 
+.skill:not(:last-child)::after{
+    content: "";
+    display: flex;
+    background-color: rgb(68, 83, 94);
+    width: 80px;
+    height: 2px;
+    position: relative;
+    bottom: 30px;
+    left: 90px;
+
+
+}
+
 .skill__title{
     margin: 0;
     /* padding: 3px 4px; */
     border-radius: 20px;
-    color: #0e1821b7;
+    color: #aaaaaa;
     font-weight: 600;
     font-size: 12px;
 
@@ -65,11 +78,15 @@
 
     }
     .skill{
-        padding: 4px 8px;
+        padding: 4px 0px;
         width: 30%;
         max-width: 80px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         margin-right: 4px;
 
+    }
+
+    .skill:not(:last-child)::after{
+        display: none;
     }
 }
