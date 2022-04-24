@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 
 import Skill from './components/Skill';
+import Project from './components/Project';
+
 
 
 import avatar from './img/avatar.jpg'
@@ -17,14 +19,17 @@ import reactIcon from './img/skills/react.svg'
 import bemIcon from './img/skills/bem.svg'
 import bootstrapIcon from './img/skills/bootstrap.svg'
 
+import logoipsumImage from './img/content/project1.png'
+
 
 
 function App() {
 	return (
     	<div className="App">
 			<main className='portfolio'>
-				<div className="potrfolio__container container">
-					<header className='portfolio__header header'>
+				<header className='portfolio__header header'>
+					<div className="potrfolio__container container">
+
 						<div className="header__info">
 							<div className="header__content">
 								<img height='80px' src={avatar} alt="#" className="header__avatar" />
@@ -77,14 +82,46 @@ function App() {
 							}
 							]}/>
 						</ul>
-							
-					</header>
-				</div>
-				<section className='portfolio__content'>
+					</div>
+					
+				</header>
+				
+				<section className='portfolio__content content'>
+					<div className="content__container container">
+						<h1 className="content__title">PORTFOLIO</h1>
 
+						<ul className="content__list projects">
+							<Project items={[
+								{
+									image: logoipsumImage,
+									title: "LogoIpsum",
+									about: "Simple landing, not adapted for screens of different devices.",
+									goto: "https://kkk-petrov.github.io/logoipsum-landing/",
+									code: "https://github.com/kkk-petrov/logoipsum-landing/",
+									stack: ["HTML", "CSS"]
+								},
+								{
+									image: logoipsumImage,
+									title: "example",
+									about: "lorem ipsum dolor sit amet",
+									goto: "https://kkk-petrov.github.io/logoipsum-landing/",
+									code: "https://github.com/kkk-petrov/logoipsum-landing/",
+									stack: ["HTML", "Bootstrap"]
+								},
+								{
+									image: logoipsumImage,
+									title: "example",
+									about: "lorem ipsum dolor sit amet",
+									goto: "https://kkk-petrov.github.io/logoipsum-landing/",
+									code: "https://github.com/kkk-petrov/logoipsum-landing/",
+									stack: ["HTML", "CSS", "React", "JS"]
+								} 
+							]}/>
+						</ul>
+					</div>
 				</section>
 			</main>
-    	</div>
+		</div>
   	);
 }
 

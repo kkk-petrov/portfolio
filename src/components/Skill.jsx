@@ -1,7 +1,7 @@
 import React from "react";
 import './Skill.css';
 
-function Skill({items}){
+const Skill = ({items}) => {
     return(
         items.map((item) => (
             <li className="skills__item skill">
