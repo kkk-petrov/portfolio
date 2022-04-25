@@ -115,6 +115,22 @@ function App() {
 									goto: "https://kkk-petrov.github.io/logoipsum-landing/",
 									code: "https://github.com/kkk-petrov/logoipsum-landing/",
 									stack: ["HTML", "CSS", "React", "JS"]
+								},
+								{
+									image: logoipsumImage,
+									title: "example",
+									about: "lorem ipsum dolor sit amet",
+									goto: "https://kkk-petrov.github.io/logoipsum-landing/",
+									code: "https://github.com/kkk-petrov/logoipsum-landing/",
+									stack: ["HTML", "Bootstrap"]
+								},
+								{
+									image: logoipsumImage,
+									title: "example",
+									about: "lorem ipsum dolor sit amet",
+									goto: "https://kkk-petrov.github.io/logoipsum-landing/",
+									code: "https://github.com/kkk-petrov/logoipsum-landing/",
+									stack: ["HTML", "CSS", "React", "JS"]
 								} 
 							]}/>
 						</ul>
