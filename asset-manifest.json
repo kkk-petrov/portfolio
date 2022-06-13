@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.029d632a.css",
+    "main.css": "/static/css/main.75ec3a6c.css",
     "main.js": "/static/js/main.47552ad8.js",
     "static/js/787.30a51563.chunk.js": "/static/js/787.30a51563.chunk.js",
     "static/media/iphub-screenshot2.png": "/static/media/iphub-screenshot2.73d1dd2e6330231e3661.png",
@@ -15,12 +15,12 @@
     "static/media/gm.svg": "/static/media/gm.5c21c42c2303125e1ed5e5df45ce4ac4.svg",
     "static/media/css.svg": "/static/media/css.58afb924b5734ac8b752614917a2edb3.svg",
     "static/media/react.svg": "/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.029d632a.css.map": "/static/css/main.029d632a.css.map",
+    "main.75ec3a6c.css.map": "/static/css/main.75ec3a6c.css.map",
     "main.47552ad8.js.map": "/static/js/main.47552ad8.js.map",
     "787.30a51563.chunk.js.map": "/static/js/787.30a51563.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.029d632a.css",
+    "static/css/main.75ec3a6c.css",
     "static/js/main.47552ad8.js"
   ]
 }
