@@ -6,7 +6,7 @@ import Project from './components/Project';
 
 
 
-import avatar from './img/avatar.jpg'
+import avatar from './img/me2.png'
 
 import tgIcon from './img/contacts/tg.svg'
 import ghIcon from './img/contacts/gh.svg'
@@ -20,7 +20,7 @@ import bemIcon from './img/skills/bem.svg'
 import bootstrapIcon from './img/skills/bootstrap.svg'
 
 import logoipsumImage from './img/content/project1.png'
-import iphubImage from './img/content/iphub-screenshot.png'
+import iphubImage from './img/content/iphub-screenshot2.png'
 
 
 
@@ -41,20 +41,20 @@ function App() {
 							</div>
 							<ul className="header__contacts contacts">
 								<li className="contacts__item contact">
-									<a href="/#" className="contact__link">
+									<a href="https://t.me/kk_ppetrov/" className="contact__link">
 										<img className='contact__icon' src={tgIcon} alt="Telegram" />
 									</a>
 								</li>
 
 								<li className="contacts__item contact">
-									<a href="/#" className="contact__link">
+									<a href="https://github.com/kkk-petrov/" className="contact__link">
 										<img className='contact__icon' src={ghIcon} alt="Github" />
 
 									</a>
 								</li>
 
 								<li className="contacts__item contact">
-									<a href="/#" className="contact__link">
+									<a href="mailto:kkpetrov.dev@gmail.com" className="contact__link">
 										<img className='contact__icon' src={gmIcon} alt="Gmail" />
 
 									</a>
