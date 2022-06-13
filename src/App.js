@@ -20,6 +20,7 @@ import bemIcon from './img/skills/bem.svg'
 import bootstrapIcon from './img/skills/bootstrap.svg'
 
 import logoipsumImage from './img/content/project1.png'
+import iphubImage from './img/content/iphub-screenshot.png'
 
 
 
@@ -101,37 +102,13 @@ function App() {
 									stack: ["HTML", "CSS"]
 								},
 								{
-									image: logoipsumImage,
-									title: "example",
-									about: "lorem ipsum dolor sit amet",
-									goto: "https://kkk-petrov.github.io/logoipsum-landing/",
-									code: "https://github.com/kkk-petrov/logoipsum-landing/",
-									stack: ["HTML", "Bootstrap"]
-								},
-								{
-									image: logoipsumImage,
-									title: "example",
-									about: "lorem ipsum dolor sit amet",
-									goto: "https://kkk-petrov.github.io/logoipsum-landing/",
-									code: "https://github.com/kkk-petrov/logoipsum-landing/",
-									stack: ["HTML", "CSS", "React", "JS"]
-								},
-								{
-									image: logoipsumImage,
-									title: "example",
-									about: "lorem ipsum dolor sit amet",
-									goto: "https://kkk-petrov.github.io/logoipsum-landing/",
-									code: "https://github.com/kkk-petrov/logoipsum-landing/",
-									stack: ["HTML", "Bootstrap"]
-								},
-								{
-									image: logoipsumImage,
-									title: "example",
-									about: "lorem ipsum dolor sit amet",
-									goto: "https://kkk-petrov.github.io/logoipsum-landing/",
-									code: "https://github.com/kkk-petrov/logoipsum-landing/",
-									stack: ["HTML", "CSS", "React", "JS"]
-								} 
+									image: iphubImage,
+									title: "IPhub",
+									about: "Multipage responsive website",
+									goto: "https://kkk-petrov.github.io/iphub/",
+									code: "https://github.com/kkk-petrov/iphub/",
+									stack: ["HTML", "CSS", "JavaScript"]
+								}
 							]}/>
 						</ul>
 					</div>
